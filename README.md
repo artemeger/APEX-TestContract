@@ -1,5 +1,6 @@
 # APEX-TestContract
 First testnet contract
+Download the KingOfTheHillabi.txt to communictate with the smart contract
 
 # Address on the Testnet
 AP1xWDozWvuVah1W86DKtcWzdw1LLHreMGX
