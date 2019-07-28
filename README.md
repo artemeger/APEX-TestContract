@@ -1,4 +1,7 @@
 # APEX-Lottery-Contract
+### Contract Address
+APLnbcBHWtBa9MXq6rkPB7EjsHxMhBWVPkT
+
 ### What it does
 Pay 100 CPX and guess a number between 1-1000. If you hit the right number you will recieve 100k CPX
 
