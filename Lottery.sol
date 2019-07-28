@@ -15,10 +15,8 @@ contract Lottery{
           if(_number == newRandom){
             msg.sender.transfer(200000 ether);
           } else if ((_number % newRandom) <= 5){
-            msg.sender.transfer(50000 ether);
-          } else if ((_number % newRandom) <= 25){
-            msg.sender.transfer(5000 ether);
-          } else if ((_number % newRandom) <= 100){
+            msg.sender.transfer(20000 ether);
+          } else if ((_number % newRandom) <= 50){
             msg.sender.transfer(110 ether);
           }
       }
