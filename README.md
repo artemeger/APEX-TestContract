@@ -3,7 +3,7 @@
 AP2YMA52cxmCW5CggDbxLkraM5s8Jk6pkAm
 
 ### What it does
-Pay 100 CPX and guess a number between 0-999. If you hit the right number you will recieve 100k CPX
+Pay 100 CPX and guess a number between 0-999. If you hit the right number you will recieve 200k CPX
 
 ### How to invoke
 ```
