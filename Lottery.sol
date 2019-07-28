@@ -11,18 +11,19 @@ contract Lottery{
 
     function getTicket(uint _number) public payable returns (uint) {
       uint newRandom = random();
-      if(msg.value >= 100 ether && _number >= 0 && _number < 1000) {
+      if(msg.value >= 100 && _number >= 0 && _number < 1000) {
           if(_number == newRandom){
-            msg.sender.transfer(200000 ether);
-          } else if ((_number <= newRandom + 5) && (_number >= newRandom - 5)){
-            msg.sender.transfer(50000 ether);
-          } else if ((_number <= newRandom + 25) && (_number >= newRandom - 25)){
-            msg.sender.transfer(5000 ether);
-          } else if ((_number <= newRandom + 150) && (_number >= newRandom - 150)){
-            msg.sender.transfer(100 ether);
+            msg.sender.transfer(200000);
+          } else if (_number % newRandom <= 5){
+            msg.sender.transfer(50000);
+          } else if (_number % newRandom <= 25){
+            msg.sender.transfer(5000);
+          } else if (_number % newRandom <= 100){
+            msg.sender.transfer(100);
           }
       }
       return newRandom;
     }
 
 }
+
