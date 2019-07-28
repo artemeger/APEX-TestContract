@@ -1,1 +1,0 @@
-[{"constant":false,"inputs":[{"name":"_name","type":"string"}],"name":"registerAsKing","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"getKing","outputs":[{"name":"","type":"string"},{"name":"","type":"address"},{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
